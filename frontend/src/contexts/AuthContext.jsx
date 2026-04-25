@@ -10,7 +10,7 @@ export const useAuth = () => {
   }
   return context
 }
-// test merge conflict
+// test merge conflict test
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(true)
